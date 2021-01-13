@@ -1,4 +1,4 @@
-package com.us.lot;
+package com.us.lot.javaday1;
 
 /*
   @author : welcome-to-hell
