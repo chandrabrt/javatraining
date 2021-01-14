@@ -31,3 +31,29 @@ git command:
    4. git status  // check my changes
 ```
 
+
+### Arrays
+arrays: 
+
+```
+i. declaration
+    data_type array_name [][]......;
+    
+ii. initialization
+    array_name = new data_type[array_size]
+    
+```
+- one dimensional,
+- two dimensional(multi),
+- annynomous arrays --  no array name ```
+
+## Constructor -- data set
+## display() -- get information
+
+## Getter(data get) and Setter(data set)
+## Composition
+
+## Project Basis
+
+
+

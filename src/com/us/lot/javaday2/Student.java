@@ -9,10 +9,15 @@ public class Student {
     private String name;
     private float salary;
 
-    public Student(){}
+    public Student() {
+    }
 
     public Student(String name, float salary) {
         this.name = name;
         this.salary = salary;
+    }
+
+    public String display() {
+        return "name='" + name + "," + "salary=" + salary;
     }
 }

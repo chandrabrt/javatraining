@@ -23,10 +23,34 @@
 ![img_1.png](../../../images/img_1.png)(explicit --programmer)
 
 
-#git version controll
+#git version control
 git command:
 ```1. git add .   // add file to the git repository
    2. git commit -m "message"  // message 
    3. git push origin master   // remote add
    4. git status  // check my changes
 ```
+
+
+### Arrays and composition
+arrays: 
+
+```
+i. declaration
+    data_type array_name [][]......;
+    
+ii. initialization
+    array_name = new data_type[array_size]
+    
+```
+- one dimensional,
+- two dimensional(multi),
+- annynomous arrays --  no array name ```
+
+## Constructor -- data set
+## display() -- get information
+
+## Getter(data get) and Setter(data set)
+
+
+
