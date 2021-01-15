@@ -35,6 +35,7 @@ public class Department {
     }
 
     public static void main(String[] args) {
+        //web ma employee details-------html form
         Employee employee = new Employee("name", "address", "98234376278"); //set data
         Employee employee_ram = new Employee("Ram", "Brt", "9823437679"); //set data
         Employee employee_shyam = new Employee("Shyam", "Brt", "9823477679"); //set data

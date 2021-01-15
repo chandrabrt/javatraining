@@ -32,7 +32,7 @@ git command:
 ```
 
 
-### Arrays and composition
+### Arrays
 arrays: 
 
 ```
@@ -45,12 +45,36 @@ ii. initialization
 ```
 - one dimensional,
 - two dimensional(multi),
-- annynomous arrays --  no array name ```
+- anynomous arrays --  no array name ```
 
-## Constructor -- data set
+## Constructor -- data set(Entity)
 ## display() -- get information
 
 ## Getter(data get) and Setter(data set)
+
+## POJO Class:
+```aidl
+School management system:
+
+1. Entity collect:
+
+Student, Techer, Management, Staff, DA,.............
+- every POJO class has propertis
+
+- every POJO class may be a (database Table)
+- every POJO class has a(Relations)
+
+2.ER-diagram:
+- relations represent
+
+```
+
+## Composition -- has a relation
+
+- Teacher has a Student
+- Student has a Address
+
+
 
 
 
