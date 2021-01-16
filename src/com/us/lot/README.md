@@ -47,6 +47,7 @@ ii. initialization
 - two dimensional(multi),
 - anynomous arrays --  no array name ```
 
+--------------------------------------------------------------------------
 ## Constructor -- data set(Entity)
 ## display() -- get information
 
@@ -66,7 +67,6 @@ Student, Techer, Management, Staff, DA,.............
 
 2.ER-diagram:
 - relations represent
-
 ```
 
 ## Composition -- has a relation
@@ -74,7 +74,21 @@ Student, Techer, Management, Staff, DA,.............
 - Teacher has a Student
 - Student has a Address
 
+## if else: true or false
+```aidl
+
+```
+## switch: ///better performance
+
+## Inheritance
+## Abstraction and Interface
 
 
+##school management system:
+- Authentication
+- admin pannel
+- Employee
+- Student
+- library management System
 
-
+## 
