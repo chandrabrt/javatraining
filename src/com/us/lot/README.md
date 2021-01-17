@@ -76,7 +76,6 @@ Student, Techer, Management, Staff, DA,.............
 
 ## if else: true or false
 ```aidl
-
 ```
 ## switch: ///better performance
 
@@ -84,11 +83,23 @@ Student, Techer, Management, Staff, DA,.............
 ## Abstraction and Interface
 
 
+## Networking: UDP/TCP
+## JDBC--database connectivity
+### servlet && JSP
+
+
 ##school management system:
 - Authentication
-- admin pannel
+- admin panel
 - Employee
 - Student
 - library management System
 
-## 
+## advanced easy---->
+
+
+
+
+
+
+
