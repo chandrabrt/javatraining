@@ -47,6 +47,7 @@ ii. initialization
 - two dimensional(multi),
 - anynomous arrays --  no array name ```
 
+--------------------------------------------------------------------------
 ## Constructor -- data set(Entity)
 ## display() -- get information
 
@@ -75,12 +76,55 @@ Student, Techer, Management, Staff, DA,.............
 
 ## if else: true or false
 ```aidl
-
 ```
 ## switch: ///better performance
 
+## Loop : for, while, do while
+```aidl
+       for(initialization ; condition; inc/dec){
+            //bussiness logic
+          
+        } //minimum us
+        
+        //extended for loop  or forEach loop
+        for(data_type variableName: List/Array_name){
+            
+        }
+        
+        while::
+        
+while(condition)
+  //initialization
+         //business logic
+  //inc/dec
+}
+
+do(){
+  //default:
+}while(condition)
+```
+
+
 ## Inheritance
 ## Abstraction and Interface
+
+
+## Networking: UDP/TCP
+## JDBC--database connectivity
+### servlet && JSP
+
+
+##school management system:
+- Authentication
+- admin panel
+- Employee
+- Student
+- library management System
+
+## advanced easy---->
+
+
+
 
 
 

@@ -79,6 +79,32 @@ Student, Techer, Management, Staff, DA,.............
 ```
 ## switch: ///better performance
 
+## Loop : for, while, do while
+```aidl
+       for(initialization ; condition; inc/dec){
+            //bussiness logic
+          
+        } //minimum us
+        
+        //extended for loop  or forEach loop
+        for(data_type variableName: List/Array_name){
+            
+        }
+        
+        while::
+        
+while(condition)
+  //initialization
+         //business logic
+  //inc/dec
+}
+
+do(){
+  //default:
+}while(condition)
+```
+
+
 ## Inheritance
 ## Abstraction and Interface
 
@@ -96,7 +122,6 @@ Student, Techer, Management, Staff, DA,.............
 - library management System
 
 ## advanced easy---->
-
 
 
 
