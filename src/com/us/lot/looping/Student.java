@@ -4,7 +4,7 @@ package com.us.lot.looping;
   @author : Chandra Khadka
   @since : 2021-01-17
 */
-//POJO -- data set and get
+//POJO(Properties) -- data set and get
 public class Student {
 
     private String name;

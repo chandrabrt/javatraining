@@ -104,9 +104,26 @@ do(){
 }while(condition)
 ```
 
+## polymorphism concept: overriding & overloading
+## Encapsulation: Abstraction and Interface(data hiding)
 
-## Inheritance
-## Abstraction and Interface
+## Inheritance(overriding)
+## Abstraction and Interface(data hiding)
+## Collections
+
+##Project Pure Java(Hash Map)
+
+## JDBC----database connectivity
+
+## Stream
+## Web (Spring boot)--restful API
+## Postman
+## Git version
+-------------------------------------------------------
+
+
+## Angular or angularJs(Web application)--
+## Mobile APP
 
 
 ## Networking: UDP/TCP
