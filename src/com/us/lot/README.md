@@ -79,7 +79,18 @@ Student, Techer, Management, Staff, DA,.............
 ```
 ## switch: ///better performance
 
-## Inheritance
+## Inheritance: parent properties are by default available for child
+
+
+![img.png](img.png)
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png) 
+
+![img_4.png](img_4.png)
+
+## Overriding.....
+
 ## Abstraction and Interface
 
 
