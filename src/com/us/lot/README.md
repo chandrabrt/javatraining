@@ -79,8 +79,17 @@ Student, Techer, Management, Staff, DA,.............
 ```
 ## switch: ///better performance
 
-## Inheritance
-## Abstraction and Interface
+
+## Inheritance: 
+## Data hiding:
+
+## Abstraction and Interface(2) ---maximum use
+## Collections(1)
+## Stream API(2)
+## JDBC(1)
+
+
+##Spring boot---(backend)
 
 
 ## Networking: UDP/TCP

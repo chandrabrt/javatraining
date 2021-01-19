@@ -47,6 +47,7 @@ ii. initialization
 - two dimensional(multi),
 - anynomous arrays --  no array name ```
 
+--------------------------------------------------------------------------
 ## Constructor -- data set(Entity)
 ## display() -- get information
 
@@ -75,12 +76,32 @@ Student, Techer, Management, Staff, DA,.............
 
 ## if else: true or false
 ```aidl
-
 ```
 ## switch: ///better performance
 
+
 ## Inheritance
+## Data hiding
 ## Abstraction and Interface
+
+
+## Networking: UDP/TCP
+## JDBC--database connectivity
+### servlet && JSP
+
+
+##school management system:
+- Authentication
+- admin panel
+- Employee
+- Student
+- library management System
+
+## advanced easy---->
+
+
+
+
 
 
 
