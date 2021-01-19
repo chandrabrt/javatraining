@@ -1,5 +1,7 @@
 package com.us.lot.inheritance;
 
+import java.util.Scanner;
+
 /*
   @author : Chandra Khadka
   @since : 2021-01-18
@@ -24,12 +26,26 @@ public class Main {
 //
 //        Student student1 = new Student(23,"name", 21, "MALE");
 
+        //read data from console
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter name: ");
+        String name = scanner.nextLine();
+
+        System.out.println("Enter gender: ");
+        String gender = scanner.nextLine();
+
+        System.out.println("Enter age: ");
+        Integer age = scanner.nextInt();
+
+        System.out.println("Enter empId: ");
+        String empId = scanner.next();
+
         //setter
         Teacher teacher = new Teacher();
-        teacher.setAge(21);
-        teacher.setName("Teacher");
-        teacher.setGender("MALE");
-        teacher.setEmpId("EM-21");
+        teacher.setAge(age);
+        teacher.setName(name);
+        teacher.setGender(gender);
+        teacher.setEmpId(empId);
 
         //getter
         System.out.println(teacher.getEmpId());

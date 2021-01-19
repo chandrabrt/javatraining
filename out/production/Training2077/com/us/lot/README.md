@@ -89,6 +89,8 @@ Student, Techer, Management, Staff, DA,.............
 
 ![img_4.png](img_4.png)
 
+## Overriding.....
+
 ## Abstraction and Interface
 
 
