@@ -2,7 +2,10 @@
 2. memory model
 
 2. Identifier
-3. Naming convention
+3. Naming convention:
+   //EmailAddress---class  --PascalCase
+   //emailAddress -- variable --camelCase
+   // emailAddress() -- method --camelCase
 4. Reserved keyword
 
 ### data types: 
@@ -47,6 +50,7 @@ ii. initialization
 - two dimensional(multi),
 - anynomous arrays --  no array name ```
 
+--------------------------------------------------------------------------
 ## Constructor -- data set(Entity)
 ## display() -- get information
 
@@ -75,12 +79,36 @@ Student, Techer, Management, Staff, DA,.............
 
 ## if else: true or false
 ```aidl
-
 ```
 ## switch: ///better performance
 
 ## Inheritance
-## Abstraction and Interface
+## Abstraction:
+abstraction: to hide implementation details.....
+![img_1.png](img_1.png)
+
+i) abstract class , abstract method(0 to 100%)
+ii) interface(100%)
+
+## Networking: UDP/TCP
+## JDBC--database connectivity
+### servlet && JSP
+
+
+##school management system:
+- Authentication
+- admin panel
+- Employee
+- Student
+- library management System
+
+## advanced easy---->
+##
+![img_3.png](img_3.png)
+
+
+
+
 
 
 
