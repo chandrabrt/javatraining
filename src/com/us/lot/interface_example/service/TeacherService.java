@@ -9,14 +9,14 @@ import java.util.List;
   @since : 2021-01-21
 */
 public interface TeacherService {
-   //what to do?
+    //what to do?
     void save();
 
-    Teacher getTeacherDetailByName();
+    Teacher getTeacherDetailByName(String name);
 
     void deleteTeacherByName(String name);
 
-    void updateRecord(String name);
+    void updateRecordByName(String name);
 
     List<Teacher> getAllTeacher();
 

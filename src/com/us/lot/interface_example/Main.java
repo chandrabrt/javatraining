@@ -1,6 +1,8 @@
 package com.us.lot.interface_example;
 
 import com.us.lot.interface_example.entity.Student;
+import com.us.lot.interface_example.service.StudentService;
+import com.us.lot.interface_example.service.impl.StudentServiceImpl;
 
 /*
   @author : Chandra Khadka
@@ -9,20 +11,20 @@ import com.us.lot.interface_example.entity.Student;
 public class Main {
 
     public static void main(String[] args) {
-        Student student = new Student();
-        student.setAge(21);
-        Main main = new Main();
-        main.saveStudentDetails(student);
+        //dynamically configure
+        StudentService studentService = new StudentServiceImpl();
+        saveStudentDetails(studentService);
     }
 
-    public  void saveStudentDetails(Student student) {
-        //saving....
+    private static void saveStudentDetails(StudentService studentService) {
+        Student student = new Student();
+        student.setName("ram");
         student.setAge(21);
         student.setGender("MALE");
-        student.setName("Chandra");
+        studentService.save(student);
+
+        Student studentDetailByStudentName = studentService.getStudentDetailByStudentName("shyam");
+        System.out.println(studentDetailByStudentName.toString());
     }
 
-    public  void getStudentRecord(Student student) {
-        System.out.println(student.getName());
-    }
 }

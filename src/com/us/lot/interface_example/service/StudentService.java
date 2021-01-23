@@ -7,10 +7,13 @@ import com.us.lot.interface_example.entity.Student;
   @since : 2021-01-21
 */
 public interface StudentService {
-    //real database...assumption
+    //what to do?
     void save(Student student);
 
-    Student getStudentDetailByStudentName();
+    Student getStudentDetailByStudentName(String name);
 
     void deleteStudentByName(String name);
+
+    Integer getStudentRollNumberByName(String name);
+
 }
