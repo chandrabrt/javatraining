@@ -97,6 +97,22 @@ Student, Techer, Management, Staff, DA,.............
 
 ## advanced easy---->
 
+## access modifier
+
+| modifier | description |
+| ------ | ------ |
+| default | access from within same package |
+| public | access from anywhere |
+| private | within same class |
+| protected | access from child classes|
+
+## final class:
+
+final class can not be inherited...
+
+## try,catch, finally, throw, throws
+## Collections(inteface) -------data structure..
+
 
 
 
