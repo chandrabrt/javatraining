@@ -47,6 +47,7 @@ ii. initialization
 - two dimensional(multi),
 - anynomous arrays --  no array name ```
 
+--------------------------------------------------------------------------
 ## Constructor -- data set(Entity)
 ## display() -- get information
 
@@ -75,12 +76,83 @@ Student, Techer, Management, Staff, DA,.............
 
 ## if else: true or false
 ```aidl
-
 ```
 ## switch: ///better performance
 
 ## Inheritance
 ## Abstraction and Interface
+
+
+## Networking: UDP/TCP
+## JDBC--database connectivity
+### servlet && JSP
+
+
+##school management system:
+- Authentication
+- admin panel
+- Employee
+- Student
+- library management System
+
+## advanced easy---->
+
+## Hierarchy of Java Exception classes
+![img.png](img.png)
+
+###
+```aidl
+- javac className.java //---(compiler)----cassName.class
+- java className
+
+```
+
+### Types of Java Exceptions:
+- Checked Exception: compile time known(can be handled)
+- Unchecked Exception: runtime time known(can be handled)
+- Error: runtime known(can not be handled)
+
+##Exception handling:
+```aidl
+try{
+   //actual program---business logic
+}catch(Exception ex){
+    //graceful termination
+}
+
+try{
+   //actual program---business logic
+}catch(Exception ex){
+    //graceful termination
+}catch(ArithemeticExceptiom ex){
+    //graceful termination
+}
+catch(Exception ex){
+    //graceful termination
+}
+//custom exception........
+try{
+   //actual program---business logic
+}catch(CustomException ex){
+    //graceful termination
+}
+
+try{
+   //actual program---business logic
+}catch(Exception ex){
+    //graceful termination
+}finally{ 
+// always execute
+}
+--------------------------------------------------
+- throws keyword --- exception pass to parent class(parent exception class)
+- throw  keyword(used with catch block) --exception throw
+```
+## try-with resource
+
+
+
+
 
 
 
