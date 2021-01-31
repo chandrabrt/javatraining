@@ -5,23 +5,16 @@ import com.us.lot.exceptionhandling.entity.Student;
 
 /*
   @author : Chandra Khadka
-  @since : 2021-01-27
+  @since : 2021-01-31
 */
-public class StudentServiceImpl implements StudentService {
+public class SchoolServiceImpl implements SchoolService {
 
     @Override
-    public Student findByName(String name) throws StudentNotFoundException{
-        //database ---student details
+    public Student findStudentDetailByName(String name) throws StudentNotFoundException {
+        //business logic to call student Service
+        StudentService studentService  = new StudentServiceImpl();
 
-        //business logic..
-        if (name.equals("Rimesh")) {
-            return new Student("Rimesh", 21);
-        } else {
-            throw new StudentNotFoundException("Student not found!");
-        }
-
-
-//        try {
+        //        try {
 //            //business logic..
 //            if (name.equals("Rimesh")) {
 //                return new Student("Rimesh", 21);
@@ -31,6 +24,7 @@ public class StudentServiceImpl implements StudentService {
 //        } catch (StudentNotFoundException exception) {
 //            System.out.println(exception.getMessage());
 //        }
-//        return null;
+
+        return studentService.findByName(name);
     }
 }

@@ -5,9 +5,10 @@ import com.us.lot.exceptionhandling.entity.Student;
 
 /*
   @author : Chandra Khadka
-  @since : 2021-01-27
+  @since : 2021-01-31
 */
-public interface StudentService {
+public interface SchoolService {
 
-    Student findByName(String name) throws StudentNotFoundException;
+    Student findStudentDetailByName(String name) throws StudentNotFoundException;
+
 }
