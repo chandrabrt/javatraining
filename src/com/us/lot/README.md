@@ -98,6 +98,26 @@ Student, Techer, Management, Staff, DA,.............
 ## advanced easy---->
 
 
+## Data Structure and Algorithms:
+
+data-- information
+collections--- groups of data
+organize, manipulate, process, retrive , store......
+
+-- arrays: collections of homogeneous...store..
+int[10] == {1,2,9,4,5,6,4,6,8,10}  order  performance..time complexity
+
+DAA: //
+average best worst
+
+Algorithm()
+, stack , queue, linked list, ......
+
+
+
+## colllections -- java data structure handle framework
+![img.png](img.png)
+![img_1.png](img_1.png)
 
 
 
